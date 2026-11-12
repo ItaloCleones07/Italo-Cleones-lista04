@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #f4f7f5;
+    color: #263b32;
+}
+
+h1 {
+    margin: 0;
+    color: #34745a;
+    font-size: 36px;
+}
+
+form {
+    width: min(100%, 400px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #d4e3d9;
+    border-radius: 8px;
+    background-color: #e6efe9;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+select {
+    padding: 9px;
+    border: 1px solid #b8cdbf;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 15px;
+}
+
+#mensagem {
+    margin: 0;
+    color: #9c3d3d;
+    text-align: center;
+}
+
+#postagem {
+    width: min(100%, 700px);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+#postagem > li {
+    padding: 10px;
+    border: 1px solid #dce5df;
+    border-radius: 6px;
+    background-color: white;
+}
+
+#postagem > li > button {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #5b967b;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+}
+
+#postagem > li > button:hover {
+    background-color: #477a63;
+}
+
+#postagem > li > div {
+    padding: 12px 4px 4px;
+    line-height: 1.5;
+}
+
+#postagem > li > div[hidden] {
+    display: none;
+}
+
+#postagem h3 {
+    color: #34745a;
+}
+
+#postagem ul {
+    padding-left: 22px;
+}
+
+#postagem ul li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}

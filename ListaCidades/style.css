@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #f3f6fa;
+    color: #293747;
+}
+
+label {
+    width: min(100%, 400px);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+select {
+    width: min(100%, 400px);
+    padding: 10px;
+    border: 1px solid #bdcddd;
+    border-radius: 5px;
+    background-color: white;
+    color: #293747;
+    font-size: 15px;
+}
+
+#mensagem {
+    width: min(100%, 400px);
+    margin-top: 8px;
+    color: #35658f;
+    text-align: center;
+    font-size: 18px;
+}
